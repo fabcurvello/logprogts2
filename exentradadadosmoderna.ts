@@ -1,5 +1,6 @@
 // Necessário instalar o pacote @types/node para usar o módulo readline
 // Comando para instalar: npm install @types/node --save-dev
+// Confira a existência do arquivo tsconfig.json para garantir que o TypeScript reconheça os tipos do prompt-sync
 
 import * as readline from "readline/promises";
 import { stdin as input, stdout as output } from "process";
